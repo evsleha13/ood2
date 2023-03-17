@@ -31,7 +31,7 @@ class YaUploader:
 if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_file = ('pathon/test.txt')
-    token = 'y0_AgAAAAAxjz1IAADLWwAAAADejWLqKC58MlQxQj6rrFnimCW8jOVasZs'
+    token = ''
     uploader = YaUploader(token)
     name = 'test.txt'
     result = uploader.upload(path_to_file, name) 
